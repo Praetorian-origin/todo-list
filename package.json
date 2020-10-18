@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "todo-list project for the odin project",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praetorian-origin/todo-list.git"
+  },
+  "author": "Cédric Duriez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Praetorian-origin/todo-list/issues"
+  },
+  "homepage": "https://github.com/Praetorian-origin/todo-list#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  }
+}
